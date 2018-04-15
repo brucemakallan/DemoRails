@@ -6,6 +6,7 @@ set :repo_url, "https://github.com/brucemakallan/DemoRails.git"
 set :deploy_to, '/opt/www/rails-demo'
 set :user, 'deploy'
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets}
+set :rvm1_map_bins, %w{rake gem bundle ruby}
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
