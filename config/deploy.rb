@@ -5,7 +5,6 @@ set :application, "rails-demo"
 set :repo_url, "https://github.com/brucemakallan/DemoRails.git"
 set :deploy_to, '/opt/www/rails-demo'
 set :user, 'deploy'
-set :use_sudo, true
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets}
 
 # Default branch is :master
